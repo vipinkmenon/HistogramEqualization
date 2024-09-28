@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER histEq
+	OPTION supported_peripherals = (histEq);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = histEq;
+END DRIVER
